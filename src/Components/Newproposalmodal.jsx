@@ -16,12 +16,12 @@ const Newproposalmodal = ({ closeModal }) => {
 
   return (
     <div className='backdrop-blur-sm fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full py-4 overflow-y-auto'>
-      <div className='w-5/6 max-w-3xl bg-indigo-950 p-4 rounded-lg shadow-lg overflow-y-auto max-h-screen'>
+      <div className='w-full max-w-3xl bg-indigo-950 p-4 rounded-lg shadow-lg sm:max-h-[80vh] sm:w-11/12 md:w-4/5 lg:w-3/4 xl:w-2/3 overflow-y-auto'>
         <div className='flex justify-between items-center mb-4'>
           <h2 className='text-white text-xl font-bold'>
             Create Proposal
           </h2>
-          <div onClick={closeModal} className='cursor-pointer text-white text-xl font-bold'>
+          <div onClick={closeModal} className='cursor-pointer text-white text-xl  font-bold'>
             X
           </div>
         </div>
@@ -56,7 +56,7 @@ const Newproposalmodal = ({ closeModal }) => {
             <input type="date" id="endDate" name="endDate" className="border rounded p-2 bg-[#2A0B70] text-white" required />
           </div>
 
-          <button type="submit" className="mt-4 px-4 py-2 bg-blue-600 text-white rounded">Submit</button>
+          <button type="submit" className="mt-4 border w-1/4 px-4 py-2 bg-gradient-to-r from-purpleAccent to-[#3FE3EF] text-white rounded">Submit</button>
         </form>
       </div>
 
