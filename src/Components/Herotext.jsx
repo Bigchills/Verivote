@@ -88,7 +88,7 @@ const Herotext = () => {
                     ) : (
                       <div className='flex gap-2'>
                         <h2 className='m-0'>Connect Wallet</h2>
-                        <img width={20} src="/Images/ri-wallet-line.svg" alt="Wallet Icon" />
+                        <img width={20} src="Images/ri-wallet-line.svg" alt="Wallet Icon" />
                       </div>
                     )
                   }

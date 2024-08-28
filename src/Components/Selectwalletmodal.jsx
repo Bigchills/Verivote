@@ -22,7 +22,7 @@ const SelectWalletModal = ({ closeModal, onWalletSelect }) => {
       <div className='modal rounded-md w-[350px] bg-gradient-to-t from-purpleAccent to-blue-950 text-white border border-purple-300 p-4 space-y-4'>
         <div className='flex justify-between items-center'>
           <div className='rounded-full h-10 w-10 bg-purpleAccent flex justify-center items-center shadow-md'>
-            <img width={20} src="/Images/ri-wallet-line.svg" alt="Wallet Icon" />
+            <img width={20} src="Images/ri-wallet-line.svg" alt="Wallet Icon" />
           </div>
           <button onClick={closeModal} className='text-3xl h-10 w-10 flex justify-center items-center rounded-full hover:bg-purple-950'>
             &times;
@@ -51,7 +51,7 @@ const SelectWalletModal = ({ closeModal, onWalletSelect }) => {
                 <>
                   <h3>{wallet}</h3>
                   <div>
-                    <img width={20} src={`/Images/walleticon${wallet === 'Argent' ? '1' : '2'}.svg`} alt={`${wallet} Wallet Icon`} />
+                    <img width={20} src={`Images/walleticon${wallet === 'Argent' ? '1' : '2'}.svg`} alt={`${wallet} Wallet Icon`} />
                   </div>
                 </>
               )}
